@@ -1,0 +1,202 @@
+
+
+.tree-submenu {
+    background-color: #58bae9;
+}
+
+.color-background {
+    background-color: #3c3b40;
+}
+
+.color-background-selected {
+    background-color: #e4e4e4;
+}
+
+.main-menu a {
+    color: #000000;
+}
+
+    .main-menu a:hover {
+        color: #686868;
+    }
+
+
+.btn-confirm {
+    background-color: #58bae9;
+}
+
+    .btn-confirm:hover {
+        background-color: #58bae9;
+    }
+
+.btn-submit {
+    background-color: #58bae9;
+}
+
+    .btn-submit:hover {
+        background-color: #58bae9;
+    }
+
+.btn-buy {
+    background-color: #58bae9;
+}
+
+    .btn-buy:hover {
+        background-color: #58bae9;
+    }
+
+    .btn-buy:active {
+        background-color: #58bae9;
+    }
+
+.btn-add {
+    background-color: #58bae9;
+}
+
+    .btn-add:hover {
+        background-color: #58bae9;
+    }
+
+    .btn-add:active {
+        background-color: #58bae9;
+    }
+
+.btn-action {
+    background-color: #58bae9;
+}
+
+    .btn-action:hover {
+        background-color: #58bae9;
+    }
+
+.block-uc-alt .title {
+    color: #58bae9;
+    padding: 9px 0 9px 0px !important;
+}
+
+
+
+.tabs-vr .tabs-headers div.selected span.right, .steps span.selected span.right {
+    border-left-color: #58bae9;
+}
+
+.tabs-vr .tabs-headers div.selected, .steps span.selected {
+    background: #58bae9;
+}
+
+a {
+    color: #3c3b40;
+}
+
+    a:hover {
+        color: #000;
+    }
+
+.tree-item-link:hover {
+    color: #000;
+}
+
+
+
+
+
+.link-recal {
+    background: transparent url('../images/refresh.png') no-repeat scroll left top;
+}
+
+.brands-symbol a {
+    color: #3C3B40;
+}
+
+.brands-symbol .selected, .brands-symbol .selected:hover {
+    background-color: #dbdbdb;
+}
+
+.brands-symbol a:hover {
+    background-color: #e8e8e8;
+    color: #3C3B40;
+}
+
+.brands-symbol .selected, .brands-symbol .selected:hover {
+    color: #3C3B40;
+}
+
+.catalog-menu-root .categories-root {
+    background: #3e3e45;
+    color: #fff;
+}
+
+    .catalog-menu-root .categories-root:hover {
+        background: #35353b;
+        color: #fff;
+    }
+
+    .catalog-menu-root .categories-root:after {
+        border-top-color: #fff;
+    }
+
+.catalog-menu-items > .item .lnk-item {
+    border-top-color: #B6B6B6;
+}
+
+.catalog-menu-items > .item .lnk-item {
+    color: #2d2d2d;
+}
+
+    .catalog-menu-items > .item .lnk-item:hover, .catalog-menu-items > .item:hover .lnk-item {
+        color: #3C3B40;
+    }
+
+.catalog-menu-items .parent:after {
+    border-left-color: #2d2d2d;
+}
+
+.catalog-menu-items .tree-submenu {
+    background: #e4e4e4;
+}
+
+    .catalog-menu-items .tree-submenu .title-column {
+        color: #3C3B40;
+    }
+
+    .catalog-menu-items .tree-submenu a {
+        color: #3C3B40;
+    }
+
+        .catalog-menu-items .tree-submenu a:hover {
+            color: #000;
+        }
+/*categories two column*/
+.catalog-menu-root .categories-root {
+    background: #3e3e45;
+}
+
+.categories-root {
+    color: #fff;
+}
+
+.catalog-menu-root .categories-root:after {
+    border-top-color: #ffffff;
+}
+
+.catalog-menu-items > .item .lnk-item {
+    border-top-color: #b6b6b6;
+}
+
+.catalog-menu-items .parent:after {
+    border-left-color: #3E3E45;
+}
+
+.intext .title-collection {
+    color: #24b893;
+}
+
+.tree-item-link:hover {
+    color: white;
+}
+.tabs-vr .tabs-headers span.tab-inside {
+    color: black;
+}
+.tree-submenu-column a:hover {
+    color: white;
+}

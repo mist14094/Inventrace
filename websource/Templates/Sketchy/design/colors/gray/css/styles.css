@@ -1,0 +1,216 @@
+
+.tree-submenu {
+    background-color: gray;
+}
+
+
+.tree-item-link.home {
+    background-color: gray;
+}
+
+.btn-confirm {
+    background-color: gray;
+}
+
+    .btn-confirm:hover {
+        background-color: gray;
+    }
+
+.btn-submit {
+    background-color: gray;
+}
+
+    .btn-submit:hover {
+        background-color: gray;
+    }
+
+.btn-buy {
+    background-color: gray;
+}
+
+    .btn-buy:hover {
+        background-color: gray;
+    }
+
+    .btn-buy:active {
+        background-color: gray;
+    }
+
+.btn-add {
+    background-color: gray;
+}
+
+    .btn-add:hover {
+        background-color: gray;
+    }
+
+    .btn-add:active {
+        background-color: gray;
+    }
+
+.flex-control-paging li a {
+    border: 1px gray solid;
+}
+
+
+.tabs-vr .tabs-headers span.tab-inside {
+    color: black;
+}
+
+.treeview li .selected, .treeview li .selected:hover {
+    font-weight: bold;
+    color: gray;
+}
+
+.block-uc-alt .title {
+    color: gray;
+    padding: 9px 0 9px 0px !important;
+}
+
+.block-uc .title {
+    color: gray;
+}
+
+.best-title, .new-title {
+    color: gray;
+}
+.tree-item-inside a:hover {
+    color: gray;
+}
+
+
+.tree-item-inside a:hover {
+    color: gray;
+}
+.tree-item-inside:hover .tree-item-link {
+    color: #00b9e7;
+}
+
+.tree-item-selected .tree-item-inside a {
+    color: gray;
+}
+
+.block-uc .title.news {
+    color: gray;
+}
+
+.block-uc .title.checkorder {
+    color: gray;
+}
+
+span.price, div.price {
+    color: #575757;
+}
+
+.block-uc .title.voting {
+    color: gray;
+}
+
+.best-title a, .new-title a, .discount-title a {
+    color: #575757;
+}
+
+
+.brands-symbol a:hover {
+    background: gray;
+}
+
+.brands-symbol a {
+    color: gray;
+}
+
+table.avangard tr:hover {
+    background-color: #f2f2f2;
+}
+
+.discount-title {
+    color: gray;
+}
+
+table.avangard tr.selected {
+    background: #f2f2f2;
+}
+
+.block-uc .title.news {
+    color: gray;
+}
+
+a {
+    color: gray;
+}
+
+    a:hover {
+        color: gray;
+    }
+
+.link-remove-a:hover {
+    color: gray;
+}
+
+.link-remove-a {
+    color: gray;
+}
+
+.link-recal {
+    background-image: none;
+    color: black;
+}
+
+.link-light:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.tabs-vr .tabs-headers div.selected, .steps span.selected {
+    background: gray;
+}
+
+    .tabs-vr .tabs-headers div.selected span.right, .steps span.selected span.right {
+        border-left-color: gray;
+    }
+
+.tabs-vr .tabs-headers div.selected {
+    background: gray;
+}
+
+.header-message a {
+    color: gray;
+}
+
+.all-news-show {
+    color: gray;
+}
+
+.block-uc .title.checkorder {
+    color: gray;
+}
+
+.block-uc .title.voting {
+    color: gray;
+}
+
+.flex-control-paging li a:hover {
+    background-color: gray;
+    border-color: gray;
+}
+
+.flex-control-paging li a.flex-active {
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-action {
+    background-color: gray;
+}
+
+    .btn-action:hover {
+        background-color: gray;
+    }
+
+    .btn-action:active {
+        background-color: gray;
+    }
+
+.tree-submenu-column a:hover {
+    color: white;
+}

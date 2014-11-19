@@ -20,7 +20,7 @@ public class GetSearch : IHttpHandler
         }
         var productIds = LuceneSearch.Search(context.Request["q"]).AggregateString('/');
 
-        var productNames = ProductService.GetForAutoCompleteByIds(productIds);
+        var productNames = ProductService.GetForAutoCompleteByIds(productIds, true);
                
         if (productNames.Count == 0)
         {
