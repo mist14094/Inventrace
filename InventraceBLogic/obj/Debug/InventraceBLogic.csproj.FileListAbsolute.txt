@@ -1,0 +1,8 @@
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\NLog.config
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.pdb
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\NLog.dll
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\NLog.xml
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.csprojResolveAssemblyReference.cache
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.dll
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.pdb

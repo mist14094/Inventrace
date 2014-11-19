@@ -1,0 +1,5 @@
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\bin\Debug\InventraceUnitTest.dll
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\bin\Debug\InventraceUnitTest.pdb
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.csprojResolveAssemblyReference.cache
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.dll
+D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.pdb

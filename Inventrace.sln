@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventraceConstants", "InventraceConstant\InventraceConstants.csproj", "{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventraceBLogic", "InventraceBLogic\InventraceBLogic.csproj", "{6868545A-9151-44B4-AC35-024557252D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventraceDLogic", "InventraceDLogic\InventraceDLogic.csproj", "{3D8D931A-C99E-4142-912E-53CDBED7ADAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventraceUnitTest", "InventraceUnitTest\InventraceUnitTest.csproj", "{3A8211E7-EC2E-4A8C-B648-F3C3E8BD2383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06380996-56D1-4D8B-8807-38B36ED531C4}"
+	ProjectSection(SolutionItems) = preProject
+		Inventrace.vsmdi = Inventrace.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSource", "WebSource\", "{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}|InventraceConstant.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebSource"
+		Debug.AspNetCompiler.PhysicalPath = "WebSource\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSource\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSource"
+		Release.AspNetCompiler.PhysicalPath = "WebSource\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSource\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2572"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Inventrace.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6868545A-9151-44B4-AC35-024557252D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6868545A-9151-44B4-AC35-024557252D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6868545A-9151-44B4-AC35-024557252D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6868545A-9151-44B4-AC35-024557252D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8D931A-C99E-4142-912E-53CDBED7ADAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8D931A-C99E-4142-912E-53CDBED7ADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8D931A-C99E-4142-912E-53CDBED7ADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8D931A-C99E-4142-912E-53CDBED7ADAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8211E7-EC2E-4A8C-B648-F3C3E8BD2383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8211E7-EC2E-4A8C-B648-F3C3E8BD2383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8211E7-EC2E-4A8C-B648-F3C3E8BD2383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8211E7-EC2E-4A8C-B648-F3C3E8BD2383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
