@@ -6,3 +6,11 @@ D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\bin\Debug\NLog.xml
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.csprojResolveAssemblyReference.cache
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.dll
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.pdb
+D:\Inventrace\InventraceBLogic\bin\Debug\NLog.config
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.pdb
+D:\Inventrace\InventraceBLogic\bin\Debug\NLog.dll
+D:\Inventrace\InventraceBLogic\bin\Debug\NLog.xml
+D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.csprojResolveAssemblyReference.cache
+D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.dll
+D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.pdb

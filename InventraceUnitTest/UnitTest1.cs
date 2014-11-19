@@ -2,6 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using InventraceConstants;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace InventraceUnitTest
@@ -12,6 +13,8 @@ namespace InventraceUnitTest
         [TestMethod]
         public void TestMethod1()
         {
+            
+            
         }
     }
 }

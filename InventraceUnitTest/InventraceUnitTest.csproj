@@ -48,6 +48,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventraceBLogic\InventraceBLogic.csproj">
+      <Project>{6868545A-9151-44B4-AC35-024557252D04}</Project>
+      <Name>InventraceBLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventraceConstant\InventraceConstants.csproj">
+      <Project>{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}</Project>
+      <Name>InventraceConstants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventraceDLogic\InventraceDLogic.csproj">
+      <Project>{3D8D931A-C99E-4142-912E-53CDBED7ADAD}</Project>
+      <Name>InventraceDLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BasicBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="NLog.config">
@@ -54,6 +55,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventraceConstant\InventraceConstants.csproj">
+      <Project>{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}</Project>
+      <Name>InventraceConstants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventraceDLogic\InventraceDLogic.csproj">
+      <Project>{3D8D931A-C99E-4142-912E-53CDBED7ADAD}</Project>
+      <Name>InventraceDLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

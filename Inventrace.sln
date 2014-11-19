@@ -19,7 +19,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSource", "WebSource\", "{96608EDC-536C-4EA4-B1C7-9827EF69E2EB}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}|InventraceConstant.dll;"
+		ProjectReferences = "{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}|InventraceConstant.dll;{6868545A-9151-44B4-AC35-024557252D04}|InventraceBLogic.dll;{3D8D931A-C99E-4142-912E-53CDBED7ADAD}|InventraceDLogic.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/WebSource"
 		Debug.AspNetCompiler.PhysicalPath = "WebSource\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSource\"

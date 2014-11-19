@@ -55,6 +55,12 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InventraceConstant\InventraceConstants.csproj">
+      <Project>{9BD42FEA-F899-48B3-B6BA-656867AAC4C2}</Project>
+      <Name>InventraceConstants</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

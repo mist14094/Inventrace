@@ -3,3 +3,8 @@ D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\bin\Debug\Inventra
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.csprojResolveAssemblyReference.cache
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.dll
 D:\Rasu\Projects\New Inventrace\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.pdb
+D:\Inventrace\InventraceUnitTest\bin\Debug\InventraceUnitTest.dll
+D:\Inventrace\InventraceUnitTest\bin\Debug\InventraceUnitTest.pdb
+D:\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.csprojResolveAssemblyReference.cache
+D:\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.dll
+D:\Inventrace\InventraceUnitTest\obj\Debug\InventraceUnitTest.pdb
