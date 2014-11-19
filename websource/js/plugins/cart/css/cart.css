@@ -1,0 +1,233 @@
+﻿.minicart {
+    background: #313137 url('../images/icon-cart.png') no-repeat scroll 14px 6px;
+}
+
+.minicart-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+    width: 250px;
+    border: 1px #e8e8e8 solid;
+    border-top-width: 0px;
+    background-color: #fff;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px;
+    box-shadow: rgba(0,0,0,0.3) 0px 1px 1px;
+    cursor: default;
+}
+
+.minicart-fixed {
+    position: fixed;
+    top: 0;
+}
+
+.minicart-list-hidden {
+    position: fixed !important;
+    left: -100% !important;
+    display: block !important;
+}
+
+.minicart-body {
+    position: relative;
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    text-transform: none;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.minicart-item {
+    display: table-row;
+}
+
+.minicart-photo, .minicart-info {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 11px;
+}
+
+.minicart-photo {
+    padding: 5px;
+    text-align: center;
+}
+
+.minicart-info {
+    padding: 5px;
+}
+
+.minicart-result {
+    padding: 15px;
+    background-color: #ebebec;
+    color: #000;
+    text-transform: none;
+    line-height: normal;
+}
+
+.minicart-name, .minicart-count, .minicart-result-row {
+    padding-bottom: 5px;
+}
+
+.minicart-name {
+    color: #000;
+    font-weight: bold;
+}
+
+    .minicart-name:hover {
+        color: #000;
+    }
+
+.minicart-param-name {
+    color: #A5A8AF;
+}
+
+.btn-cart-margin {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.fullcart {
+    width: 100%;
+}
+
+    .fullcart tbody td {
+        padding: 10px 5px;
+        border-top: 1px solid #E2E2E2;
+    }
+
+    .fullcart thead {
+        padding: 0 20px 0 0;
+        color: #7F7F7F;
+        text-align: left;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+.fullcart-name, .fullcart-price, .fullcart-count, .fullcart-cost {
+    padding: 10px;
+}
+
+.fullcart-price {
+    width: 130px;
+    text-align: right;
+}
+
+.fullcart-count {
+    width: 90px;
+    text-align: center;
+}
+
+.fullcart-cost {
+    /*width: 225px;*/
+    text-align: right;
+}
+
+.fullcart-delete {
+    padding: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.fullcart-photo-data {
+    padding: 10px 5px;
+    width: 75px;
+    text-align: center;
+}
+
+.fullcart-price-data {
+    text-align: right;
+}
+
+.fullcart-count-data {
+    text-align: center;
+}
+
+.fullcart-cost-data {
+    text-align: right;
+}
+
+.fullcart-delete-data {
+    padding: 0;
+    text-align: center;
+}
+
+.fullcart-cupon-text-wrap {
+    float: left;
+    padding-left: 15px;
+    width: 160px;
+}
+
+.fullcart-cupon-text {
+    display: inline-block;
+    color: #9A9A9A;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.fullcart-cupon-inputs {
+    float: left;
+    width: 330px;
+}
+
+.fullcart-summary {
+    text-align: right;
+}
+
+.fullcart-summary-text {
+    color: #9A9A9A;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.fullcart-footer {
+    background: #EAEAEA;
+}
+
+.fullcart-note {
+    padding-left: 15px;
+    height: 60px;
+    color: #9A9A9A;
+    font-weight: 700;
+}
+
+.fullcart-result {
+    text-align: right;
+}
+
+.fullcart-empty {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.fullcart-summary-bg {
+    padding: 0 20px 0 5px;
+    height: 53px;
+    border-radius: 0 0 4px 4px;
+    background: #EAEAEA;
+    white-space: nowrap;
+    line-height: 53px;
+}
+
+.fullcart-summary-alg {
+    vertical-align: bottom;
+}
+
+.fullcart-comment-title, .fullcart-code-title {
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+
+.btn-cart-confirm {
+    position: relative;
+    margin-top: 15px;
+    text-align: right;
+}
+
+#cartScrollbar {
+    position: relative;
+}
