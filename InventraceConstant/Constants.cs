@@ -30,7 +30,6 @@ namespace InventraceConstants
 
         public string UpdateStore =
             "UpdateStore";
-
         public string RemoveStore =
             "delete FROM newadvantdb.dbo.stores where StoreID={0}";
 
