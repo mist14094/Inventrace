@@ -15,7 +15,7 @@ namespace InventraceUnitTest
         public void TestMethod1()
         {
             InventraceBLogic.Store bl = new Store();
-            bl.StoreName = "Pranavi Enterprises, Tirichi";
+            bl.StoreName = "Pranavi Enterprises, Ambattur";
             bl.StoreDesc = "Dealer for All kinds of Lens etc..";
             bl.AddressLine1 = "474, CTH Road";
             bl.AddressLine2 = "Ambattur";
@@ -24,6 +24,7 @@ namespace InventraceUnitTest
             bl.State = "Tamil Nadu";
             bl.StoreId = 1;
             bl.UpdateStore(bl);
+            bl.RemoveStore(new Store(){StoreId = 1});
 
             List < Store > dfList = bl.GetStores();
 

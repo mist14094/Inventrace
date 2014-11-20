@@ -89,6 +89,7 @@ namespace InventraceBLogic
                 .Select(row => new Store()
                 {
                     StoreId = Convert.ToInt16(row["StoreID"]),
+                    StoreName =  row["StoreName"].ToString(),
                     StoreDesc = row["StoreDesc"].ToString(),
                     AddressLine1 = row["AddressLine1"].ToString(),
                     AddressLine2 = row["AddressLine2"].ToString(),
