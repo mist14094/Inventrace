@@ -22,12 +22,16 @@ namespace InventraceConstants
         }
 
 
-        public string GetAllDataBaseConnection =
-            "SELECT [Sno] ,[DataBaseName] ,[ConnectionString] ,[EquivalentString] ,[Enabled] ,[DateCreated]  FROM [Jarvis].[dbo].[DataBaseInstanceNames]";
+        public string GetAllStores =
+            "SELECT [StoreID] ,[StoreName] ,[StoreDesc] ,[AddressLine1] ,[AddressLine2] ,[City] ,[State] ,[ZipCode] ,[isWareHouse] ,[StoreManager] ,[PhoneNumber] ,[ManagerID] ,[FromLocation] ,[IsActive] ,[CreatedDate] ,[ModifiedDate] ,[CreatedBy]  FROM newadvantdb.dbo.stores";
 
-        public string GetConnectionString =
-            "SELECT [ConnectionString]  FROM [Jarvis].[dbo].[DataBaseInstanceNames] WHERE Sno={0}";
+        public string InsertStore =
+            "InsertStore";
 
+        public string UpdateStore =
+            "UpdateStore";
+        public string RemoveStore =
+            "delete FROM newadvantdb.dbo.stores where StoreID={0}";
 
     }
 }
