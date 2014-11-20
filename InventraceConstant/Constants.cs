@@ -26,7 +26,7 @@ namespace InventraceConstants
             "SELECT [StoreID] ,[StoreName] ,[StoreDesc] ,[AddressLine1] ,[AddressLine2] ,[City] ,[State] ,[ZipCode] ,[isWareHouse] ,[StoreManager] ,[PhoneNumber] ,[ManagerID] ,[FromLocation] ,[IsActive] ,[CreatedDate] ,[ModifiedDate] ,[CreatedBy]  FROM newadvantdb.dbo.stores";
 
         public string InsertStore =
-            "InsertStore";
+            "AddStore";
 
         public string UpdateStore =
             "UpdateStore";

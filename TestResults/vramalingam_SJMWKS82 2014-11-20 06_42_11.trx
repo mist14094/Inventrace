@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce1231ea-6ed6-4da1-9545-0b4ec9db3e9a" name="vramalingam@SJMWKS82 2014-11-20 06:42:11" runUser="SJRT31\vramalingam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Inventrace\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="vramalingam_SJMWKS82 2014-11-20 06_42_11">
+      <DeploymentItem filename="D:\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+      <DeploymentItem filename="D:\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-20T06:42:11.9428964-05:00" queuing="2014-11-20T06:42:14.1050201-05:00" start="2014-11-20T06:42:14.3660350-05:00" finish="2014-11-20T06:42:59.6456248-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61">
+      <Execution id="bd9ee138-2c37-40ae-a77f-dedf9af00f66" />
+      <TestMethod codeBase="D:/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.UnitTest1, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" executionId="bd9ee138-2c37-40ae-a77f-dedf9af00f66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd9ee138-2c37-40ae-a77f-dedf9af00f66" testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" testName="TestMethod1" computerName="SJMWKS82" duration="00:00:41.6818794" startTime="2014-11-20T06:42:14.6970539-05:00" endTime="2014-11-20T06:42:57.9935304-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd9ee138-2c37-40ae-a77f-dedf9af00f66">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Pranavi Enterprises, Tiruvannamalai&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at InventraceUnitTest.UnitTest1.TestMethod1() in D:\Inventrace\InventraceUnitTest\UnitTest1.cs:line 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

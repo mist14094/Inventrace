@@ -14,3 +14,7 @@ D:\Inventrace\InventraceBLogic\bin\Debug\NLog.xml
 D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.csprojResolveAssemblyReference.cache
 D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.dll
 D:\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.pdb
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.dll
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.dll
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.pdb
+D:\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.pdb

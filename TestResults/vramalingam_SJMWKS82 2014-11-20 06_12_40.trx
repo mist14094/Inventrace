@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c90f052b-cca6-4ba6-a4e4-9339239349d8" name="vramalingam@SJMWKS82 2014-11-20 06:12:40" runUser="SJRT31\vramalingam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="vramalingam_SJMWKS82 2014-11-20 06_12_40">
+      <DeploymentItem filename="D:\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+      <DeploymentItem filename="D:\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-20T06:12:40.4985756-05:00" queuing="2014-11-20T06:12:59.3016511-05:00" start="2014-11-20T06:13:00.2667063-05:00" finish="2014-11-20T06:13:14.1004975-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61">
+      <Execution id="374d73ce-c444-4ea6-8373-6245be85cca0" />
+      <TestMethod codeBase="D:/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.UnitTest1, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" executionId="374d73ce-c444-4ea6-8373-6245be85cca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="374d73ce-c444-4ea6-8373-6245be85cca0" testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" testName="TestMethod1" computerName="SJMWKS82" duration="00:00:10.9544417" startTime="2014-11-20T06:13:00.7097316-05:00" endTime="2014-11-20T06:13:13.8624839-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="374d73ce-c444-4ea6-8373-6245be85cca0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method InventraceUnitTest.UnitTest1.TestMethod1 threw exception: 
+System.TypeInitializationException: The type initializer for 'InventraceBLogic.Store' threw an exception. ---&gt; System.TypeInitializationException: The type initializer for 'InventraceConstants.Constants' threw an exception. ---&gt; System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at InventraceConstants.Constants..cctor() in D:\Inventrace\InventraceConstant\Constants.cs:line 11
+ --- End of inner exception stack trace ---
+    at InventraceConstants.Constants..ctor()
+   at InventraceDLogic.BasicDL..ctor() in D:\Inventrace\InventraceDLogic\BasicDL.cs:line 16
+   at InventraceBLogic.Store..cctor() in D:\Inventrace\InventraceBLogic\Store.cs:line 16
+ --- End of inner exception stack trace ---
+    at InventraceBLogic.Store..ctor()
+   at InventraceUnitTest.UnitTest1.TestMethod1() in D:\Inventrace\InventraceUnitTest\UnitTest1.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using InventraceDLogic;
@@ -9,7 +10,7 @@ namespace InventraceBLogic
 {
     
 
-    class Store
+    public class Store
     {
 
         private static InventraceDLogic.BasicDL _dl = new BasicDL();
@@ -32,20 +33,47 @@ namespace InventraceBLogic
         public DateTime ModifieDate { get; set; }
         public int CreatedBy { get; set; }
 
-        
-        public void AddStore(Store store)
+        public Store()
         {
+            StoreName = "";
+            StoreDesc = "";
+            AddressLine1 = "";
+            AddressLine2 = "";
+            City = "";
+            State = "";
+            ZipCode = "";
+            IsWareHouse = false;
+            StoreManager = 0;
+            PhoneNumber = "";
+            IsActive = true;
+            FromLocation = 0;
+            ManagerId = 0;
+            CreatedDate = DateTime.Now;
+            ModifieDate = DateTime.Now;
+            CreatedBy = 0;
+        }
+
+        public string AddStore(Store store)
+        {
+            return _dl.InsertStore(store.StoreName, store.StoreDesc, store.AddressLine1, store.AddressLine2, store.City,
+                store.ZipCode, store.State, store.IsWareHouse,
+                store.StoreManager, store.PhoneNumber, store.ManagerId, store.FromLocation, store.IsActive,
+                store.CreatedDate, store.ModifieDate, store.CreatedBy);
+        }
+
+        public string RemoveStore(Store store)
+        {
+            return _dl.RemoveStore(store.StoreId.ToString(CultureInfo.InvariantCulture));
 
         }
 
-        public void RemoveStore(Store store)
+        public string UpdateStore(Store store)
         {
-            
-        }
-
-        public void UpdateStore(Store store)
-        {
-            
+            return _dl.UpdateStore(store.StoreId, store.StoreName, store.StoreDesc, store.AddressLine1,
+                store.AddressLine2, store.City,
+                store.ZipCode, store.State, store.IsWareHouse,
+                store.StoreManager, store.PhoneNumber, store.ManagerId, store.FromLocation, store.IsActive,
+                store.CreatedDate, store.ModifieDate, store.CreatedBy);
         }
 
         public List<Store> GetStores()
