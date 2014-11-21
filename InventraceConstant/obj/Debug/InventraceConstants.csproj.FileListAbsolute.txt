@@ -14,3 +14,11 @@ D:\Inventrace\InventraceConstant\bin\Debug\NLog.xml
 D:\Inventrace\InventraceConstant\obj\Debug\InventraceConstants.csprojResolveAssemblyReference.cache
 D:\Inventrace\InventraceConstant\obj\Debug\InventraceConstant.dll
 D:\Inventrace\InventraceConstant\obj\Debug\InventraceConstant.pdb
+D:\Rasu\Inventrace\InventraceConstant\bin\Debug\NLog.config
+D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll
+D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.pdb
+D:\Rasu\Inventrace\InventraceConstant\bin\Debug\NLog.dll
+D:\Rasu\Inventrace\InventraceConstant\bin\Debug\NLog.xml
+D:\Rasu\Inventrace\InventraceConstant\obj\Debug\InventraceConstants.csprojResolveAssemblyReference.cache
+D:\Rasu\Inventrace\InventraceConstant\obj\Debug\InventraceConstant.dll
+D:\Rasu\Inventrace\InventraceConstant\obj\Debug\InventraceConstant.pdb

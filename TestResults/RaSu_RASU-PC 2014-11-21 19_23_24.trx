@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8836caa5-b52a-4b11-9b4b-44e6d7fe49d4" name="RaSu@RASU-PC 2014-11-21 19:23:24" runUser="RaSu-PC\RaSu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RaSu_RASU-PC 2014-11-21 19_23_24">
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-21T19:23:24.4155117+05:30" queuing="2014-11-21T19:23:29.5528055+05:30" start="2014-11-21T19:23:29.6118089+05:30" finish="2014-11-21T19:23:32.7749898+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SelectAllDepartments" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="bfb32b0c-945d-7b70-b9e9-b03493793613">
+      <Execution id="34896733-9ebb-4c90-9d44-070e59aada3f" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectAllDepartments" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bfb32b0c-945d-7b70-b9e9-b03493793613" executionId="34896733-9ebb-4c90-9d44-070e59aada3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34896733-9ebb-4c90-9d44-070e59aada3f" testId="bfb32b0c-945d-7b70-b9e9-b03493793613" testName="SelectAllDepartments" computerName="RASU-PC" duration="00:00:02.6393249" startTime="2014-11-21T19:23:29.6338101+05:30" endTime="2014-11-21T19:23:32.7219868+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34896733-9ebb-4c90-9d44-070e59aada3f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method InventraceUnitTest.DepartmentUnitTest.SelectAllDepartments threw exception: 
+System.ArgumentException: Column 'ModifiedDate' does not belong to table .</Message>
+          <StackTrace>    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at InventraceBLogic.Department.&lt;GetDepartment&gt;b__1(DataRow row) in D:\Rasu\Inventrace\InventraceBLogic\Department.cs:line 66
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at InventraceBLogic.Department.GetDepartment(DataTable dt) in D:\Rasu\Inventrace\InventraceBLogic\Department.cs:line 65
+   at InventraceBLogic.Department.GetAllDepartments() in D:\Rasu\Inventrace\InventraceBLogic\Department.cs:line 55
+   at InventraceUnitTest.DepartmentUnitTest.SelectAllDepartments() in D:\Rasu\Inventrace\InventraceUnitTest\DepartmentUnitTest.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

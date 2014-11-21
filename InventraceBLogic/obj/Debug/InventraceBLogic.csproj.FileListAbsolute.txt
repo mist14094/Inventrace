@@ -18,3 +18,15 @@ D:\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.dll
 D:\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.dll
 D:\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.pdb
 D:\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.pdb
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\NLog.config
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.pdb
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.dll
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.dll
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\NLog.dll
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceConstant.pdb
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceDLogic.pdb
+D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\NLog.xml
+D:\Rasu\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.csprojResolveAssemblyReference.cache
+D:\Rasu\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.dll
+D:\Rasu\Inventrace\InventraceBLogic\obj\Debug\InventraceBLogic.pdb

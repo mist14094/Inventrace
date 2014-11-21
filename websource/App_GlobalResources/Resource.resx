@@ -2083,7 +2083,7 @@
     <value>Общие</value>
   </data>
   <data name="Admin_MasterPageAdmin_Copyright" xml:space="preserve">
-    <value>&lt;a style="text-decoration: none; color: Black;" href="about.aspx"&gt;Copyright &lt;/a&gt;© 2006-2014 ITM Company, All Rights Reserved</value>
+    <value>&lt;a style="text-decoration: none; color: Black;" href="about.aspx"&gt;Copyright &lt;/a&gt;© 2006-2014 Createalytics Services, All Rights Reserved</value>
   </data>
   <data name="Admin_MasterPageAdmin_Countries" xml:space="preserve">
     <value>Страны/регионы/города</value>
@@ -12013,5 +12013,11 @@
   </data>
   <data name="Admin_PaymentMethod_Yandex_Certificate_Description" xml:space="preserve">
     <value>Файл сертификата для формата сообщений XML/PKCS#7</value>
+  </data>
+  <data name="Admin_Receiving_Header" xml:space="preserve">
+    <value>Receiving Items</value>
+  </data>
+  <data name="Admin_Receiving_Subheading" xml:space="preserve">
+    <value>Stock inward </value>
   </data>
 </root>

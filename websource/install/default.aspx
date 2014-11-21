@@ -76,7 +76,7 @@
                     </div>
                     <div class="step-btns">
                         <adv:Button runat="server" ID="btnBack" OnClick="BackClick" CssClass="btn-back" Text="<%$Resources:Resource, Installer_Back %>" />
-                        <adv:Button runat="server" ID="btnNext" OnClick="NextClick" CssClass="btn-next" Text="<%$Resources:Resource, Installer_Next %>" />
+                        <asp:LinkButton runat="server" ID="btnNext" OnClick="NextClick" CssClass="btn-next" Text="<%$Resources:Resource, Installer_Next %>" />
                         <asp:LinkButton  Text="<%$Resources:Resource, Installer_Finish %>" runat="server" ID="btnGoToShop" Visible="false" OnClick="GoShopClick"
                             CssClass="btn-next"></asp:LinkButton>
                     </div>

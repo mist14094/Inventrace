@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Data;
+using InventraceDLogic;
 
 namespace InventraceBLogic
 {
     class ProductItems
     {
+        InventraceDLogic.BasicDL _dl = new BasicDL();
+
         public int ProductId { get; set; }
         public int ProductItemId { get; set; }
         public int RFID { get; set; }
@@ -21,25 +25,72 @@ namespace InventraceBLogic
         public bool IsPrinted { get; set; }
         public bool IsRFIDItem { get; set; }
 
-        public void AddProductItems(ProductItems productItems)
+        public ProductItems()
         {
+            ProductId = 0;
+            ProductItemId = 0;
+            RFID = 0;
+            ProductStatus =(Status)1;
+            ZoneId = 1;
+            HasExitRead = true;
+            IsActive = true;
+            CreatedDate = DateTime.Now;
+            ModifieDate = DateTime.Now;
+            CreatedBy = 0;
+            IsRFIDItem = true;
+            IsPrinted = true;
+        }
+
+
+        public string AddProductItems(ProductItems pItems)
+        {
+            return _dl.InsertProductItem(pItems.ProductId, pItems.RFID,Convert.ToInt16((pItems.ProductStatus).ToString()), pItems.ZoneId, pItems.HasExitRead, pItems.IsActive, pItems.CreatedDate, pItems.ModifieDate, pItems.CreatedBy, pItems.IsRFIDItem, pItems.IsPrinted);
+        }
+
+        public string RemoveProductItem(ProductItems pItems)
+        {
+
+            return _dl.RemoveProductItem(pItems.ProductItemId);
 
         }
 
-        public void RemoveProductItems(ProductItems productItems)
+        public string UpdateProductItem(ProductItems pItems)
         {
-
+            return _dl.UpdateProductItem(pItems.ProductId, pItems.ProductItemId, pItems.RFID, Convert.ToInt16((pItems.ProductStatus).ToString()), pItems.ZoneId, pItems.HasExitRead, pItems.IsActive, pItems.CreatedDate, pItems.ModifieDate, pItems.CreatedBy, pItems.IsRFIDItem, pItems.IsPrinted);
         }
 
-        public void UpdateProductItems(ProductItems productItems)
+        public List<ProductItems> GetAllProductItems()
         {
-
+            return GetProductItem(_dl.GetAllProductItems());
         }
 
-        public List<ProductItems> GetProductItems()
+        public List<ProductItems> GetProductItemById(int pItemsId)
         {
-            return null;
+            return GetProductItem(_dl.GetProductItemById(pItemsId));
         }
+
+        private List<ProductItems> GetProductItem(DataTable dt)
+        {
+            var list = dt.AsEnumerable()
+                .Select(row => new ProductItems()
+                {
+                    ProductId = Convert.ToInt16(row["ProductId"]),
+                    ProductItemId = Convert.ToInt16(row["ProductItemId"]),
+                    RFID = Convert.ToInt16(row["RFID"]),
+                    ProductStatus = (Status)Convert.ToInt16(row["ProductStatus"]),
+                    ZoneId = Convert.ToInt16(row["ZoneId"]),
+                    HasExitRead = Convert.ToBoolean(row["HasExitRead"]),
+                    IsActive = Convert.ToBoolean(row["IsActive"]),
+                    CreatedDate = Convert.ToDateTime(row["CreatedDate"]),
+                    ModifieDate = Convert.ToDateTime(row["ModifiedDate"]),
+                    CreatedBy = Convert.ToInt16(row["CreatedBy"]),
+                     IsPrinted = Convert.ToBoolean(row["IsPrinted"]),
+                    IsRFIDItem = Convert.ToBoolean(row["IsRFIDItem"])
+                    
+                }).ToList();
+            return list;
+        }
+
 
     }
 

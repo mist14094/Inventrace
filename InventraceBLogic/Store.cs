@@ -82,10 +82,10 @@ namespace InventraceBLogic
             return GetStore(_dl.GetAllStores());
         }
 
+
         private  List<Store> GetStore(DataTable dt)
         {
-            var st = new Store();
-            var list = dt.AsEnumerable()
+             var list = dt.AsEnumerable()
                 .Select(row => new Store()
                 {
                     StoreId = Convert.ToInt16(row["StoreID"]),

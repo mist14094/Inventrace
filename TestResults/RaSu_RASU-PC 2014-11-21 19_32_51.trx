@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0ea89ae7-79b0-4f6a-b781-3673f7a544b5" name="RaSu@RASU-PC 2014-11-21 19:32:51" runUser="RaSu-PC\RaSu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RaSu_RASU-PC 2014-11-21 19_32_51">
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-21T19:32:51.5779515+05:30" queuing="2014-11-21T19:33:07.3618543+05:30" start="2014-11-21T19:33:07.6218692+05:30" finish="2014-11-21T19:33:15.1863018+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddDepartment" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44">
+      <Execution id="c37c7d26-b805-4f1b-85f2-ebcc9b404b37" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddDepartment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44" executionId="c37c7d26-b805-4f1b-85f2-ebcc9b404b37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c37c7d26-b805-4f1b-85f2-ebcc9b404b37" testId="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44" testName="AddDepartment" computerName="RASU-PC" duration="00:00:05.6244871" startTime="2014-11-21T19:33:07.8838841+05:30" endTime="2014-11-21T19:33:14.9572887+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c37c7d26-b805-4f1b-85f2-ebcc9b404b37">
+    </UnitTestResult>
+  </Results>
+</TestRun>

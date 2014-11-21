@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="591b7554-951c-4360-95ab-7f600673a362" name="RaSu@RASU-PC 2014-11-21 19:34:01" runUser="RaSu-PC\RaSu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RaSu_RASU-PC 2014-11-21 19_34_01">
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-21T19:34:01.2339356+05:30" queuing="2014-11-21T19:34:16.4438055+05:30" start="2014-11-21T19:34:16.6988201+05:30" finish="2014-11-21T19:34:54.3139716+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RASU-PC" outcome="Error" timestamp="2014-11-21T19:34:54.3099714+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SelectDepartmentByID" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="0f38f28f-7950-ba09-8e2e-9e4afbd441f3">
+      <Execution id="406c829c-c25b-4b14-882f-d3fa24ff2ea7" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectDepartmentByID" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0f38f28f-7950-ba09-8e2e-9e4afbd441f3" executionId="406c829c-c25b-4b14-882f-d3fa24ff2ea7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="406c829c-c25b-4b14-882f-d3fa24ff2ea7" testId="0f38f28f-7950-ba09-8e2e-9e4afbd441f3" testName="SelectDepartmentByID" computerName="RASU-PC" duration="00:00:37.3871384" startTime="2014-11-21T19:34:16.9268332+05:30" endTime="2014-11-21T19:34:54.3139716+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406c829c-c25b-4b14-882f-d3fa24ff2ea7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

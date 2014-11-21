@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4d55a0d3-394b-484a-aea8-9bcdb674c737" name="RaSu@RASU-PC 2014-11-21 19:27:38" runUser="RaSu-PC\RaSu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="856d45aa-e491-4297-bccb-48209a0f6540">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RaSu_RASU-PC 2014-11-21 19_27_38">
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceDLogic\bin\Debug\InventraceDLogic.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceConstant\bin\Debug\InventraceConstant.dll" />
+      <DeploymentItem filename="D:\Rasu\Inventrace\InventraceBLogic\bin\Debug\InventraceBLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-11-21T19:27:38.7440584+05:30" queuing="2014-11-21T19:28:25.3507242+05:30" start="2014-11-21T19:28:26.3367806+05:30" finish="2014-11-21T19:29:12.3264110+05:30" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RASU-PC" outcome="Error" timestamp="2014-11-21T19:29:12.3244109+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61">
+      <Execution id="73011ece-8c0b-4e26-a607-7042c0d9cba3" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.UnitTest1, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="SelectAllDepartments" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="bfb32b0c-945d-7b70-b9e9-b03493793613">
+      <Execution id="e056bf81-9bdd-40bb-ac3c-11cec4204ada" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectAllDepartments" />
+    </UnitTest>
+    <UnitTest name="SelectDepartmentByID" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="0f38f28f-7950-ba09-8e2e-9e4afbd441f3">
+      <Execution id="f1e91aab-22e9-4c54-8d40-99e63c796af6" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectDepartmentByID" />
+    </UnitTest>
+    <UnitTest name="AddDepartment" storage="d:\rasu\inventrace\inventraceunittest\bin\debug\inventraceunittest.dll" id="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44">
+      <Execution id="02197d38-bd6f-4064-b1c0-ec97a230f5a5" />
+      <TestMethod codeBase="D:/Rasu/Inventrace/InventraceUnitTest/bin/Debug/InventraceUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InventraceUnitTest.DepartmentUnitTest, InventraceUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddDepartment" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44" executionId="02197d38-bd6f-4064-b1c0-ec97a230f5a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f38f28f-7950-ba09-8e2e-9e4afbd441f3" executionId="f1e91aab-22e9-4c54-8d40-99e63c796af6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfb32b0c-945d-7b70-b9e9-b03493793613" executionId="e056bf81-9bdd-40bb-ac3c-11cec4204ada" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" executionId="73011ece-8c0b-4e26-a607-7042c0d9cba3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="02197d38-bd6f-4064-b1c0-ec97a230f5a5" testId="016f7a35-e1de-09bc-c76f-3fcd9a2a8a44" testName="AddDepartment" computerName="RASU-PC" duration="00:00:07.2916926" startTime="2014-11-21T19:28:29.0289346+05:30" endTime="2014-11-21T19:28:37.9114426+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02197d38-bd6f-4064-b1c0-ec97a230f5a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="f1e91aab-22e9-4c54-8d40-99e63c796af6" testId="0f38f28f-7950-ba09-8e2e-9e4afbd441f3" testName="SelectDepartmentByID" computerName="RASU-PC" duration="00:00:34.3909670" startTime="2014-11-21T19:28:37.9354440+05:30" endTime="2014-11-21T19:29:12.3264110+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1e91aab-22e9-4c54-8d40-99e63c796af6">
+    </UnitTestResult>
+    <UnitTestResult executionId="e056bf81-9bdd-40bb-ac3c-11cec4204ada" testId="bfb32b0c-945d-7b70-b9e9-b03493793613" testName="SelectAllDepartments" computerName="RASU-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e056bf81-9bdd-40bb-ac3c-11cec4204ada">
+    </UnitTestResult>
+    <UnitTestResult executionId="73011ece-8c0b-4e26-a607-7042c0d9cba3" testId="c5fd2d80-bbcf-cbc5-48b9-bd03c00c3d61" testName="TestMethod1" computerName="RASU-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73011ece-8c0b-4e26-a607-7042c0d9cba3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
